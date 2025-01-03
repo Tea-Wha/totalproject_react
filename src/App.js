@@ -5,7 +5,7 @@ import Layout from "./react/pages/Layout";
 function App() {
   return (
     <div>
-      <p>Start</p>
+      <p></p>
     </div>
   );
 }
