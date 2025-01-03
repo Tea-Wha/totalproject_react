@@ -25,6 +25,9 @@ export const userSlice = createSlice({
   },
   reducers: {},
   extraReducers: (builder) => {
-    builder.addCase();
+    builder
+      .addCase(fetchUser.pending, (state) => {})
+      .addCase(fetchUser.fulfilled, (state, action) => {})
+      .addCase(fetchUser.rejected, (state, action) => {});
   },
 });
